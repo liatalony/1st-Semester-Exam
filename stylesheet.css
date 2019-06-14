@@ -1,0 +1,192 @@
+body {
+    background-color: black;
+    font-family: candara, sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0 20px 30px black;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    width: 33.333%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+#image {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.Theme-Page {
+    padding-top: 6em;
+}
+
+.home {
+    background-image: url(20190519_175256-1~2.jpg);
+}
+
+.BW-Image {
+    background-image: url(WEB-BG-1.jpg);
+}
+
+.BA-Image {
+    background-image: url(Sprite-bg.jpg);
+
+}
+
+.BC-Image {
+    background-image: url(Content-BG-1.jpg);
+
+}
+
+.BX-Image {
+    background-image: url(UX-sketch.jpg);
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+h5 {
+    padding-top: 15em;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.sub {
+    padding-top: 0;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2em;
+    margin-bottom: .5em;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom:
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#Themes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.theme {
+    margin: auto;
+    height: 195px;
+    width: 350px;
+    max-width: 100%;
+    padding-top: 155px;
+    background-size: cover;
+    margin-bottom: 2em;
+
+}
+
+.WEB {
+    background-image: url(WEB-BG-1.jpg);
+}
+
+.ANI {
+    background-image: url(Sprite-bg.jpg);
+}
+
+.CON {
+    background-image: url(Content-BG-1.jpg);
+}
+
+.UX {
+    background-image: url(UX-sketch.jpg);
+}
+
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+#SoMe {
+    margin: auto;
+    width: 115px;
+}
+
+footer img {
+    width: 35px;
+    text-align: center;
+}
+
+#BTcontain {
+    margin: auto;
+    margin-bottom: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+#button {
+    font-size: 20px;
+    background-color: #282828;
+    border: 2px solid white;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+    width: 150px;
+}
