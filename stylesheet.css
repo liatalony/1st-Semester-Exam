@@ -36,29 +36,29 @@ nav a:hover {
 }
 
 .Theme-Page {
-    padding-top: 6em;
+    padding-top: 45vh;
 }
 
 .home {
-    background-image: url(20190519_175256-1~2.jpg);
+    background-image: url(Images/20190519_175256-1~2.jpg);
 }
 
 .BW-Image {
-    background-image: url(WEB-BG-1.jpg);
+    background-image: url(Images/WEB-BG-1.jpg);
 }
 
 .BA-Image {
-    background-image: url(Sprite-bg.jpg);
+    background-image: url(Images/Sprite-bg.jpg);
 
 }
 
 .BC-Image {
-    background-image: url(Content-BG-1.jpg);
+    background-image: url(Images/Content-BG-1.jpg);
 
 }
 
 .BX-Image {
-    background-image: url(UX-sketch.jpg);
+    background-image: url(Images/UX-sketch.jpg);
 
 }
 
@@ -72,7 +72,7 @@ h1 {
 }
 
 h5 {
-    padding-top: 15em;
+    padding-top: 30vh;
     text-align: center;
     color: white;
     font-weight: 100;
@@ -94,7 +94,7 @@ h3 {
     color: white;
     text-align: center;
     font-size: 30px;
-    margin-top: 2em;
+    margin-top: 0;
     margin-bottom: .5em;
 
 }
@@ -110,7 +110,7 @@ h2 {
 p {
     color: white;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     max-width: 750px;
     margin: auto;
     margin-bottom:
@@ -141,20 +141,24 @@ a {
 
 }
 
+#WITTA {
+    margin-bottom: 7em;
+}
+
 .WEB {
-    background-image: url(WEB-BG-1.jpg);
+    background-image: url(Images/WEB-BG-1.jpg);
 }
 
 .ANI {
-    background-image: url(Sprite-bg.jpg);
+    background-image: url(Images/Sprite-bg.jpg);
 }
 
 .CON {
-    background-image: url(Content-BG-1.jpg);
+    background-image: url(Images/Content-BG-1.jpg);
 }
 
 .UX {
-    background-image: url(UX-sketch.jpg);
+    background-image: url(Images/UX-sketch.jpg);
 }
 
 
@@ -175,7 +179,7 @@ footer img {
 
 #BTcontain {
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
     padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
@@ -189,4 +193,33 @@ footer img {
     text-align: center;
     margin: auto;
     width: 150px;
+}
+
+.king {
+    display: block;
+    margin: auto;
+    width: 250px;
+    max-width: 100%;
+}
+
+.arthur {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.sheet {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 7em;
+
+}
+
+.sprite {
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    max-width: 90%;
 }
