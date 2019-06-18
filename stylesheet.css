@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #1d1f21;
     font-family: candara, sans-serif;
     color: #E2E2E2;
 }
@@ -8,7 +8,7 @@ nav {
     display: flex;
     height: 60px;
     width: 100%;
-    background-color: #1F1F1F;
+    background-color: #3c3f41;
     position: fixed;
     left: 0;
     top: 0;
@@ -26,8 +26,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
-    color: black;
+    background-color: #1d1f21;
+    color: #E2E2E2;
 }
 
 #image {
@@ -64,11 +64,15 @@ nav a:hover {
 
 }
 
+.AB-Image {
+    background-image: url(Images/shutterstock_176995772.jpg);
+}
+
 .level {
     display: block;
     margin: auto;
     max-width: 95%;
-    background-color: #1F1F1F;
+    background-color: #3c3f41;
     padding: 1em;
     border-radius: 30px;
     box-shadow: 0 2px 5px black;
@@ -123,7 +127,6 @@ p {
     width: 750px;
     max-width: 100%;
     margin: auto;
-    margin-bottom:
 }
 
 a {
@@ -148,6 +151,12 @@ a {
     padding-top: 155px;
     background-size: cover;
     margin-bottom: 2em;
+    box-shadow: 0 2px 10px black;
+}
+
+.theme:hover {
+    filter: brightness(50%);
+    box-shadow: 0 1px 3px black;
 }
 
 .arrow {
@@ -203,14 +212,14 @@ footer img {
     text-align: center;
 }
 
-#BTcontain {
+.BTcontain {
     margin: auto;
     padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
 }
 
-#button {
+.button {
     font-size: 20px;
     background-color: #4BBBF5;
     border: none;
@@ -219,7 +228,7 @@ footer img {
     text-align: center;
     margin: auto;
     width: 150px;
-    color: #121212;
+    color: #1d1f21;
     box-shadow: 0 10px 15px black;
 
 
@@ -252,4 +261,39 @@ footer img {
     margin: auto;
     margin-top: 2em;
     max-width: 90%;
+}
+
+#arrows{
+    margin-bottom: 10em;
+}
+.left{
+    float: left;
+    margin-left: 1em;
+    width: 50%;
+    font-size: 21px;
+}
+
+.left a{
+    font-size: 21px;
+}
+
+.right{
+    float: right;
+    margin-right: 1em;
+    max-width: 50%;
+    font-size: 21px;
+}
+
+.imgMe{
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 1000px;
+    border: 2px solid #3c3f41;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.UXpg{
+    margin-bottom: 4em;
 }
